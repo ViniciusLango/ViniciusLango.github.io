@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- Meta Tags -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="">
+   <meta name="author" content="">
+    
+   <title>Canis - Coming Soon</title>
+   <link rel="shortcut icon" href="images/favicon.png">
+   
+   <!-- Bootstrap Core CSS -->
+   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="css/style.css" type="text/css">
+   <!-- Animate CSS -->
+   <link rel="stylesheet" href="css/animate.css">
+   <!-- Light Box CSS -->
+   <link href="css/lightbox.css" rel="stylesheet" />
+   <!-- Custom Fonts -->
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,800' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+   
+   <!-- Important Owl stylesheet -->
+   <link rel="stylesheet" href="css/owl.carousel.css">
+   <!-- Default Theme Owl Carousel -->
+   <link rel="stylesheet" href="css/owl.theme.css">
+   <!-- jQuery 1.9.1 -->
+   <script src="js/jquery-1.9.1.min.js"></script>
+   <!-- Include js plugin -->
+   <script src="js/owl.carousel.js"></script>
+   <!-- Light Box -->
+   <script src="js/lightbox.min.js"></script>
+   <script src="js/jquery.countdown.min.js"></script>
+</head>
+
+
+<body>
+	<div id="headercomingsoon">
+		<div class="container">
+			<div class="row margin-t-90">
+				<div class="col-md-12">
+					<h1 class="text-center text-uppercase">Coming soon template</h1>
+					<h4 class="text-center">Clean, Awesome, Multipurpose and Fully Responsive Coming Soon Template.</h4>
+					
+					<div class="row margin-t-60 text-center">
+						<!-- <div class="col-md-6 col-md-offset-3"> -->
+						<div class="col-md-12">
+							<div id="clockcount"></div>
+						</div>
+					</div>
+					
+					
+					<div class="row margin-t-60">
+					<p class="text-center">We are working very hard on the new version of our site. It will bring a lot of new features. Stay tuned!</p>
+						<div class="col-md-6 col-md-offset-3">
+						<div class="scomingsoon-inputs">
+							<form action="" method="post">
+								<input type="text" name="subtext" id="subtext" placeholder="Enter e-mail" required>
+								<input type="submit" value="SUBSCRIBE">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<script>
+    $('#clockcount').countdown('2015/12/12', function(event) {
+		var $this = $(this).html(event.strftime(''
+    	+ '<span class="clock">%D days</span> '
+    	+ '<span class="clock">%H hr</span> '
+    	+ '<span class="clock">%M min</span> '     
+		+ '<span class="clock">%S sec</span> '));
+ 	});
+    </script>
+	<!-- Bootstrap -->
+    <script src="js/bootstrap.js"></script>
+	
+</body>
+</html>
