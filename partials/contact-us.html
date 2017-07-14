@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- build:process -->
+    <meta name="description" content="<%= meta.description %>">
+    <meta name="author" content="<%= meta.author%>">
+    <title><%= title.contactUs %></title>
+    <!-- /build -->
+    include "components/headscriptsandlinks.html"
+</head>
+<body>
+
+    include "components/header.html"
+
+    <!--sections -->
+    include "sections/contact-us.html"
+    include "sections/bottom.html"
+    <!-- end sections -->
+
+    include "components/footer.html"
+
+    <!-- build:script jquery -->
+    <script src="js/jquery.js"></script>
+    <!-- /build -->
+
+    <!-- build:script built -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!-- /build -->
+</body>
+</html>
